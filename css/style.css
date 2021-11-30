@@ -1,0 +1,138 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+/* Variaveis */
+:root{
+    --cor-base: #1177FF;
+    --cor-complementar: #FF5311;
+    --cor-base-escura: #0036B2;
+    --cor-preto: #171E26;
+    --cor-branco: #E4E8ED;
+}
+
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Estilos personalizados*/
+
+.header{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: var(--cor-base-escura);
+    padding: 0 20px 20px 20px;
+    margin: 0 0 32px 0;
+    color: var(--cor-branco);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family: "Montserrat", sans-serif;
+}
+
+/*.header video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;  
+    height: auto;
+}*/
+
+.header img{
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;  
+    height: auto;
+    border: 5px solid rgba(255, 255, 255, .2);
+    border-radius: 50%;
+    margin: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.header .capa{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0;
+    border: none;
+    margin: 0 auto;
+}
+#titulo{
+    font-weight: 700;
+}
+#titulo_terceiro{
+    font-weight: 600;
+}
+
+.descricao, .desc_topo{
+    font-weight: 400;
+}
+.descricao{
+    padding: 32px 80px;
+}
+.texto{
+ color: var(--cor-preto);
+}
+
+.subtitulo{
+    color: var(--cor-complementar);
+}
+footer{
+    background-color: var(--cor-base);
+    height: 100px;
+    padding: 50px 0;
+    text-align: center;
+    color: var(--cor-branco);
+    box-shadow: 4px 0 3px 3px rgba(0, 0, 0, 0.2);
+}
