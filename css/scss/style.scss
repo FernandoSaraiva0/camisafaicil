@@ -1,0 +1,26 @@
+/*Configuração*/
+@import url(colors);
+@import url(root); 
+/*Tools*/
+@import url(reset); 
+/*Elementos*/
+@import url(header); 
+
+.descricao{
+    padding: 32px 80px;
+}
+.texto{
+ color: $cor-preto;
+}
+
+.subtitulo{
+    color: var(--cor-complementar);
+}
+footer{
+    background-color: var(--cor-base);
+    height: 100px;
+    padding: 50px 0;
+    text-align: center;
+    color: var(--cor-branco);
+    box-shadow: 4px 0 3px 3px rgba(0, 0, 0, 0.2);
+}
