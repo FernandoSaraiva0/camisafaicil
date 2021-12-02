@@ -148,6 +148,24 @@ table {
   color: var(--cor-base);
 }
 
+@media (max-width: 600px) {
+  .header img {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+  }
+  .header #titulo {
+    font-size: 1.5em;
+  }
+  .header #titulo_terceiro {
+    font-size: 1em;
+  }
+  .header .desc_topo {
+    display: none;
+  }
+}
+
 .descricao {
   padding: 32px 80px;
 }

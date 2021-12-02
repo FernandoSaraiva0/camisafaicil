@@ -76,3 +76,23 @@
         }
     }
 }
+
+@media (max-width: 600px){
+    .header{
+        img{
+            max-width: 150px;
+            max-height: 150px;
+            width: auto;
+            height: auto;
+    }
+    #titulo{
+        font-size: 1.5em;
+    }
+    #titulo_terceiro{
+        font-size: 1em;
+    }
+    .desc_topo{
+        display: none;
+    }
+}
+}
